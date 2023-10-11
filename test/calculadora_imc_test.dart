@@ -1,8 +1,8 @@
-import 'package:calculadora_imc/calculadora_imc.dart';
+import 'package:calculadora_imc/funcoes/calculo.dart';
 import 'package:test/test.dart';
 
 void main() {
   test('calculate', () {
-    expect(calculate(), 42);
+    expect(Calculo, 42);
   });
 }
